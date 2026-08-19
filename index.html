@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NJ OCSS County Safeguard Portal — Mahathi's Walkthrough</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <div class="dot"></div>
+    <h1>County Safeguard Portal &nbsp;·&nbsp; Mahathi's Walkthrough &nbsp;·&nbsp; ~9 min</h1>
+  </div>
+  <div class="clock">
+    <div class="clock-progress"><div class="clock-fill" id="clockFill"></div></div>
+    <div class="clock-time" id="clockTime" data-total="540">9:00</div>
+    <div class="clock-controls">
+      <button class="btn primary" id="btnStart">Start</button>
+      <button class="btn ghost" id="btnPause">Pause</button>
+      <button class="btn ghost" id="btnReset">Reset</button>
+    </div>
+  </div>
+</header>
+
+<nav class="stopnav" id="stopNav"></nav>
+
+<main class="stops">
+
+  <div class="section-divider section-divider--portal">
+    <div class="section-divider__line"></div>
+    <div class="section-divider__label">County Portal — Gloucester County (Mahathi)</div>
+    <div class="section-divider__line"></div>
+  </div>
+
+  <!-- ===== HANDOFF IN (Tim → Mahathi) ===== -->
+  <section class="stop" id="stopHandin">
+    <div class="stop-head">
+      <div class="stop-number">↦</div>
+      <div class="stop-meta">
+        <h2>Handoff In — Tim → Mahathi</h2>
+        <div class="stop-time"><strong>0:15</strong> &nbsp;·&nbsp; picking up after Joanne's records</div>
+      </div>
+      <button class="btn done-btn" data-target="stopHandin">Mark done</button>
+      <button class="btn edit-btn" data-target="stopHandin" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Tim's cue line: <em>"…and that's Joanne's view as the OCSS inspector. Mahathi, show them what this looks like from the county's chair."</em> Switch to the County Safeguard Portal tab.</p>
+    </div>
+    <div class="say">
+      <p>"Thanks, Tim. So everything Joanne just walked through — the inspection, the findings, the deadlines — that's the <em>state's</em> side. The really nice part is the county isn't getting emails and spreadsheets about all that. They log into one place that's already stitched to the exact same records Joanne is working. <strong>Same data, two doors.</strong> Let me show you the county's door."</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Land on the portal home at /safeguard/s/.</em></div>
+  </section>
+
+  <!-- ===== STOP A — Portal Home / Dashboard ===== -->
+  <section class="stop" id="stopA">
+    <div class="stop-head">
+      <div class="stop-number">A</div>
+      <div class="stop-meta">
+        <h2>Home / Dashboard</h2>
+        <div class="stop-time"><strong>2:00</strong> &nbsp;·&nbsp; Gloucester County's view</div>
+      </div>
+      <button class="btn done-btn" data-target="stopA">Mark done</button>
+      <button class="btn edit-btn" data-target="stopA" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Land on the portal home (<code>/safeguard/s/</code>). Point to the state banner across the top, then the greeting "Good afternoon, Gloucester County."</p>
+    </div>
+    <div class="say">
+      <p>"So this is what Gloucester County sees the moment they log in. Notice the top — 'An official portal of the State of New Jersey, Department of Human Services.' That matters: to the county this feels like a government system, not a vendor tool. And right away — 'Good afternoon, Gloucester County' — they know they're in the right place."</p>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Point to the cycle-progress panel and the four stat tiles: <strong>62%</strong> cycle completion · <strong>4</strong> open corrective actions · <strong>30 days</strong> to deadline (Aug 21) · assigned inspector <strong>Joanne Fornier</strong>.</p>
+    </div>
+    <div class="say">
+      <p>"Here's the whole safeguard cycle at a glance. They're 62% through the 2026 cycle, they have 4 open corrective actions, and there are 30 days until the next deadline — August 21st. Their assigned inspector, Joanne Fornier, is right there. So kind of think about what we just removed: the county never has to ask 'where do we stand, who's our contact, what's due?' It's the first thing they see."</p>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Scroll to the <strong>Cycle timeline</strong> card — Kickoff (May 12 ✓) · Questionnaire (Jun 03 ✓) · On-site (Jul 08 ✓) · CAP evidence due (Aug 21, In Progress) · Cycle close (Sep 15).</p>
+    </div>
+    <div class="say">
+      <p>"And this is the part counties really respond to. The timeline — kickoff letter, questionnaire, the on-site inspection, corrective-action evidence due, and cycle close. The first three are already Complete. They can see the finish line. That's a confidence thing — an inspection stops feeling like an ambush and starts feeling like a project with a clear runway."</p>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Point to the <strong>Recent activity</strong> feed and the yellow <strong>FTI notice</strong> ("Do not upload Federal Tax Information").</p>
+    </div>
+    <div class="say">
+      <p>"Down here is a live activity feed — 'Evidence uploaded for CAP-00001,' 'CAP-00003 marked In Review by Joanne.' So both sides are looking at the same heartbeat. And notice this yellow notice: 'Do not upload Federal Tax Information.' We put that guardrail right on the surface — the whole point of Pub 1075 is protecting FTI, so the portal is designed so they never put the sensitive stuff in the wrong place."</p>
+      <p>"<strong>So the dashboard alone replaces the status-chasing email chain — one screen, always current, for both the state and the county.</strong>"</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Click "Continue inspection" (or the Inspection nav item).</em></div>
+  </section>
+
+  <!-- ===== STOP B — Inspection Workspace + Checklist (HERO) ===== -->
+  <section class="stop hero" id="stopB">
+    <div class="stop-head">
+      <div class="stop-number">B</div>
+      <div class="stop-meta">
+        <h2>Inspection Workspace &amp; Document Checklist <span class="hero-tag">✨ HERO</span></h2>
+        <div class="stop-time"><strong>3:00</strong> &nbsp;·&nbsp; submitting evidence + AI review</div>
+      </div>
+      <button class="btn done-btn" data-target="stopB">Mark done</button>
+      <button class="btn edit-btn" data-target="stopB" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Land on the Inspection Workspace. Show the facts bar — inspector Joanne Fornier, evidence due Aug 21, IRS Pub 1075, retention <strong>5 years</strong>. Point to the "Required documents checklist" card and the <strong>Secure Upload</strong> badge.</p>
+    </div>
+    <div class="say">
+      <p>"This is where the real work happens. Every safeguard review needs a pile of evidence — the access lists, the training certs, the destruction logs. Historically that's a shared drive and a prayer. Here it's a Required Documents checklist, and see the badge — Secure Upload — retained under Pub 1075 controls for 5 years. So the county always knows exactly what's being asked of them and what's still outstanding."</p>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Point to the progress line ("X of Y required documents resolved") and the columns: <strong>Checklist Item · Status · Upload · Files · Review</strong>. Statuses walk <strong>New → Pending → Accepted</strong>.</p>
+    </div>
+    <div class="say">
+      <p>"Each row is one required artifact. They upload the file right in the row, and the status walks from New to Pending to Accepted. Simple, visual, no guessing."</p>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>On a row, click <strong>Mark N/A</strong>, show the "Why doesn't this apply to your agency?" reason box, type a one-line reason, then <strong>Confirm N/A</strong>.</p>
+    </div>
+    <div class="say">
+      <p>"Now here's a small thing counties love. Not every document applies to every agency. Instead of a phone call, they hit Mark N/A, type a one-line reason, and it's captured in the audit trail. So the inspector sees not just <em>that</em> it was skipped, but <em>why</em>. That's the kind of defensibility an IRS review actually cares about."</p>
+    </div>
+    <div class="do critical">
+      <span class="do-tag">DO ✱</span>
+      <p>Point to the <strong>Accept / Reject</strong> buttons and the <strong>AI review verdict</strong> on a row. On the county login this is hidden — narrate it as Joanne's side; to show it live, use the internal inspector login (Standard user).</p>
+    </div>
+    <div class="say">
+      <p>"And here's where it gets modern. When a document comes in, an AI reviewer reads it against the Pub 1075 requirement and gives the inspector a head-start verdict — Accepted, Recommend manual review, or Rejected — with the reasoning written out. Look at this one: the Data Warehouse access report came back Rejected because it's missing required sections. So Joanne isn't reading forty PDFs cold — the AI triages them, and she spends her time on the ones that actually need a human."</p>
+      <p>"One important thing — this AI review only exists on the inspector's side. When Gloucester's coordinator is uploading, they don't see any of it. The county just submits; the inspector gets the assist. <strong>That's a county submitting faster and an inspector clearing the queue faster — same feature, both sides win.</strong>"</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Click the Corrective Actions nav item.</em></div>
+  </section>
+
+  <!-- ===== STOP C — Corrective Actions ===== -->
+  <section class="stop" id="stopC">
+    <div class="stop-head">
+      <div class="stop-number">C</div>
+      <div class="stop-meta">
+        <h2>Corrective Action Response</h2>
+        <div class="stop-time"><strong>2:30</strong> &nbsp;·&nbsp; responding to a finding</div>
+      </div>
+      <button class="btn done-btn" data-target="stopC">Mark done</button>
+      <button class="btn edit-btn" data-target="stopC" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Land on the CAP list (<code>/safeguard/s/caps</code>). Point to the real findings: <strong>CAP-00001</strong> physical access §9.3.1.7 (Overdue) · <strong>CAP-00002</strong> disable TLS 1.0/1.1 §9.3.14.5 (Overdue) · <strong>CAP-00003</strong> training acks §5.5 (In Review).</p>
+    </div>
+    <div class="say">
+      <p>"When the inspection turns up a gap, it becomes a Corrective Action Plan — a CAP. This is the county's list of everything they have to fix, ranked by severity. Look — CAP-00001, a physical-access finding, tied to Pub 1075 §9.3.1.7, flagged Overdue. CAP-00002, disable legacy TLS on a management interface, §9.3.14.5, also overdue. CAP-00003, missing training acknowledgements, already In Review. So there's no ambiguity about what's open, how serious it is, or which regulation it maps back to."</p>
+    </div>
+    <div class="do critical">
+      <span class="do-tag">DO ✱</span>
+      <p>Click into a CAP (e.g. CAP-00001). Step 1 <strong>Review finding</strong> → click <strong>Begin response</strong>. Step 2 <strong>Describe remediation</strong> → click <strong>Fill for demo</strong> to auto-populate → Continue. Step 3 <strong>Attach evidence notes</strong> → Fill for demo → Continue. Step 4 <strong>Review &amp; submit</strong> → <strong>Submit response</strong>. Show the "Response submitted" confirmation + case reference.</p>
+    </div>
+    <div class="say">
+      <p>"And responding is a guided, four-step flow — Review finding, Describe remediation, Attach evidence notes, Review and submit. Step one lays out exactly what was found, the citation, the severity, and the evidence due date. No county employee has to be a Pub 1075 expert to know what to do next — the portal walks them through it."</p>
+      <p>"Step two, they describe what they fixed — the control, who owns it, when it was done. For the sake of time I'll drop in a sample response here with 'Fill for demo.' Step three, they reference the evidence, and step four they review and submit. The second they submit, it's routed straight to Joanne and logged in the audit trail — they even get a case reference number. <strong>The back-and-forth that used to take a week of emails is now a two-minute guided form.</strong>"</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Quick tour of Submit a Case + Resources.</em></div>
+  </section>
+
+  <!-- ===== STOP D — Submit Case + Resources (optional) ===== -->
+  <section class="stop" id="stopD">
+    <div class="stop-head">
+      <div class="stop-number">D</div>
+      <div class="stop-meta">
+        <h2>Submit a Case &amp; Resources</h2>
+        <div class="stop-time"><strong>1:00</strong> &nbsp;·&nbsp; optional — cut first if long</div>
+      </div>
+      <button class="btn done-btn" data-target="stopD">Mark done</button>
+      <button class="btn edit-btn" data-target="stopD" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Briefly click <strong>Submit Case</strong>, then <strong>Resources</strong> (show the category tabs: All resources · Policy &amp; framework · Templates · Training · Contacts).</p>
+    </div>
+    <div class="say">
+      <p>"Two quick ones. If the county has a question that isn't a formal finding — 'how do we handle X' — they open a case right here and it goes to the OCSS support queue. And Resources is a living library — the actual IRS Publication 1075, the CAP template, the POA&amp;M, the annual awareness training, and the field-team contacts. So the county is never hunting across email for the right template — it's all one click away, right where they work."</p>
+      <p>"<strong>Everything a county needs to stay compliant lives in one portal — inspections, corrective actions, questions, and reference material.</strong>"</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Hand back to Tim on the internal org.</em></div>
+  </section>
+
+  <!-- ===== HANDOFF OUT (Mahathi → Tim) ===== -->
+  <section class="stop" id="stopHandout">
+    <div class="stop-head">
+      <div class="stop-number">↤</div>
+      <div class="stop-meta">
+        <h2>Handoff Out — Mahathi → Tim</h2>
+        <div class="stop-time"><strong>0:20</strong> &nbsp;·&nbsp; submit → back to the inspector</div>
+      </div>
+      <button class="btn done-btn" data-target="stopHandout">Mark done</button>
+      <button class="btn edit-btn" data-target="stopHandout" title="Edit SAY blocks">✏️</button>
+    </div>
+    <div class="do">
+      <span class="do-tag">DO</span>
+      <p>Go back to the Inspection Workspace (or the checklist) so the last thing on screen is evidence being submitted. Then switch to Tim's internal org.</p>
+    </div>
+    <div class="say">
+      <p>"So watch what happens the moment the county submits this evidence — it doesn't go into a black hole. It lands right back on Joanne's desk on the state side. Tim, if you flip back over, you can pick it up from the inspector's chair — the document comes in, the AI verdict's waiting, and if there's a CAP to work, it's right there too. Take it away."</p>
+    </div>
+    <div class="transition"><span class="t-tag">→</span> <em>Tim resumes on the internal side (document received → AI triage → CAP review).</em></div>
+  </section>
+
+</main>
+
+<!-- ===== SIDEBAR ===== -->
+<aside class="sidebar">
+
+  <div class="side-block">
+    <h3>Cast &amp; handoffs</h3>
+    <ul class="hero-list">
+      <li><strong>You play:</strong> the county-side experience — the sharp admin who explains it in the customer's language</li>
+      <li><strong>Tim → you:</strong> after he shows the home page, dashboard, and Joanne's records</li>
+      <li><strong>You → Tim:</strong> after the county submits evidence — it lands back on the inspector's desk</li>
+      <li><strong>Demo county:</strong> Gloucester County CSSA · inspector <strong>Joanne Fornier</strong></li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>Login for the portal</h3>
+    <ul class="hero-list">
+      <li>Incognito → <code>trailsignup-a5c0fc1b89ec36.my.site.com/safeguard/s/</code></li>
+      <li>User: <code>lauren.bailey@trailsignup-a5c0fc1b89ec36.com</code></li>
+      <li>Pass: <code>DemoPortal2026x</code> &nbsp;(Gloucester County CSSA)</li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>Pre-demo checklist</h3>
+    <ul class="checklist">
+      <li><label><input type="checkbox"> Portal open in incognito, logged in as Lauren Bailey (county view)</label></li>
+      <li><label><input type="checkbox"> Home shows "Good afternoon, Gloucester County," 62% / 4 CAPs / 30 days</label></li>
+      <li><label><input type="checkbox"> Inspection Workspace loads the 12-item checklist</label></li>
+      <li><label><input type="checkbox"> Corrective Actions list shows CAP-00001 / 00002 / 00003</label></li>
+      <li><label><input type="checkbox"> "Fill for demo" button populates the CAP wizard (hard-refresh if stale)</label></li>
+      <li><label><input type="checkbox"> Decide: show AI verdict live via internal login, or narrate as Joanne's side</label></li>
+      <li><label><input type="checkbox"> Screenshots captured: Home · Workspace · checklist row · CAP list · wizard step 2</label></li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>Key value statements</h3>
+    <ul class="hero-list">
+      <li><strong>Dashboard</strong> — one screen replaces the status-chasing email chain, current for both sides</li>
+      <li><strong>Checklist</strong> — single source of truth for evidence; county sees what's owed, state sees what's landed</li>
+      <li><strong>AI review</strong> — reads the actual document, triages for the inspector; hidden from the county</li>
+      <li><strong>CAP wizard</strong> — a week of emails becomes a two-minute guided form, logged in the audit trail</li>
+      <li><strong>Same data, two doors</strong> — the county portal and the inspector org are the same records</li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>Data note — present as-is</h3>
+    <ul class="cut-list">
+      <li>The portal is skinned "Gloucester" but the Inspection/CAP pages show the demo-rich inspection (4 CAPs, full checklist w/ AI-rejected doc)</li>
+      <li>Nothing on screen names another county — narrate everything as Gloucester and it holds together</li>
+      <li>The AI verdict renders for internal inspectors only, not county users</li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>If running long — cut here first</h3>
+    <ul class="cut-list">
+      <li>Cut Stop D (Submit Case + Resources) entirely — saves ~1 min</li>
+      <li>Stop C: walk one wizard screen, describe the rest — saves ~1 min</li>
+      <li>Stop A: skip the timeline card, describe verbally — saves ~30 sec</li>
+    </ul>
+  </div>
+
+  <div class="side-block">
+    <h3>Pub 1075 callouts on screen</h3>
+    <ul class="hero-list">
+      <li><strong>§9.3.1.7</strong> — Physical access controls (CAP-00001)</li>
+      <li><strong>§9.3.14.5 RA-5</strong> — Vulnerability scanning / TLS (CAP-00002)</li>
+      <li><strong>§5.5</strong> — Security awareness &amp; training (CAP-00003)</li>
+      <li><strong>5-year retention</strong> — field audit trail mandate</li>
+      <li><strong>FTI advisory</strong> — never upload Federal Tax Information</li>
+    </ul>
+  </div>
+
+</aside>
+
+<script src="app.js"></script>
+</body>
+</html>
